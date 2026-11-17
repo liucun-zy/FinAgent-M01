@@ -1,0 +1,6 @@
+#!/bin/sh
+set -eu
+host_dir=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+node_bin=${DSH_NODE:-$(command -v node || true)}
+if [ -z "$node_bin" ]; then node_bin="$HOME/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node"; fi
+exec "$node_bin" "$host_dir/runner.mjs" "$@"

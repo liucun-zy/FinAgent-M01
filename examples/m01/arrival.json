@@ -1,0 +1,9 @@
+{
+  "task_context": "采购台账初始化：保留各材料各自陈述及原始证据。",
+  "sources": [
+    {"path": "procurement.pdf"},
+    {"path": "procurement.xlsx"},
+    {"path": "procurement.txt"},
+    {"path": "procurement.html"}
+  ]
+}

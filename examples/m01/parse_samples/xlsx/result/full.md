@@ -1,0 +1,23 @@
+<table>
+  <tr>
+    <th><p>订单号</p></th>
+    <th><p>型号</p></th>
+    <th><p>数量（台）</p></th>
+    <th><p>单价（万元／台）</p></th>
+    <th><p>金额（万元）</p></th>
+  </tr>
+  <tr>
+    <td><p>PO-017</p></td>
+    <td><p>A型</p></td>
+    <td><p>120</p></td>
+    <td><p>0.8</p></td>
+    <td><p>96</p></td>
+  </tr>
+  <tr>
+    <td><p>说明：金额不含税。</p></td>
+    <td><p></p></td>
+    <td><p></p></td>
+    <td><p></p></td>
+    <td><p></p></td>
+  </tr>
+</table>

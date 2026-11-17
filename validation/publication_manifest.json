@@ -1,0 +1,15 @@
+{
+  "baseline_id": "m01-v1-context-20261116-01",
+  "production_code_unchanged": true,
+  "secret_like_files": [],
+  "files_containing_local_paths": [],
+  "omitted": [
+    "raw business documents",
+    "real failure corpus and caches",
+    "SQLite",
+    "private configs",
+    "node_modules",
+    "full local archive"
+  ],
+  "source_file_count": 94
+}

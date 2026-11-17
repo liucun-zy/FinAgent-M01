@@ -1,0 +1,60 @@
+{
+  "baseline_id": "m01-v1-context-20261116-01",
+  "status": "frozen",
+  "module_development": "closed",
+  "scope": "M01 source ingestion and evidence extraction",
+  "integrated_change": "Explicit table-title context and governing-section references, including plain text captions.",
+  "normalization_version": "mineru-content-contract-v5-table-title-scope",
+  "source_unit_version": "source-elements-v5-table-title-scope",
+  "model": "EFundGPT-air",
+  "extraction_concurrency": 20,
+  "prompt_sha256": "74a2c8e782f64bd8fee96ab84785b9db00d49676f293d7ec28a65254641ab873",
+  "regression": "69 passed",
+  "context_cases": {
+    "real": {
+      "correct": 6,
+      "total": 6
+    },
+    "synthetic": {
+      "correct": 10,
+      "total": 10
+    }
+  },
+  "new_model_calls": 0,
+  "new_tokens": 0,
+  "new_mineru_tasks": 0,
+  "python": "3.12.3 (v3.12.3:f6650f9ad7, Apr  9 2024, 08:18:47) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "node": "v24.22.1",
+  "m01_source_sha256": {
+    "src/action_trace_demo/ingestion.py": "81fecacb2f8bd83299948ade7cdbcdf3ca223fd5e220ecff40873bd191b723cf",
+    "src/action_trace_demo/ingestion_store.py": "cc1f43b996d1f6f6850c4d2d8ba432833496ec06078a4225dd3aede10e04aa49",
+    "src/action_trace_demo/ingestion_tools.py": "191415510d59109cb21f71f7cc81b96b4f2aa0078593fcc49ccd1b3932471707",
+    "src/action_trace_demo/mineru_adapter.py": "da1abb5aa3be299891d2da1c48abadf41f06e345174ec3c44233ca868d630f23",
+    "src/action_trace_demo/mineru_content.py": "db117a3e45916899d6d64e60b44a52cb255cd35612a26f0d45776e3fd85fc2ca",
+    "src/action_trace_demo/evidence_windows.py": "c49fdaf4bcece6a1d3c1943719984192e90e1be133ccccfc79105f1d7f56b01a",
+    "src/action_trace_demo/table_structure.py": "2b08deaf2166934538729e1f8531572d1e8537e65287639fcd50b16980e19556",
+    "src/action_trace_demo/table_context.py": "3b40205a4255f04ce3211ce752d5bb53818c46a5272a2ed0679be8358f0e56df",
+    "src/action_trace_demo/source_units.py": "6df53df63a7355e9c24062d7082d1b66244afceeea3df40dbda61f5d50d5d44f",
+    "src/action_trace_demo/source_pipeline.py": "75afaab3c688c7540145a777d81ad95b991712e8d7dc3b7c7d556c65a5d1a5ae",
+    "src/action_trace_demo/source_extraction.py": "74a2c8e782f64bd8fee96ab84785b9db00d49676f293d7ec28a65254641ab873",
+    "src/action_trace_demo/source_alignment.py": "69f59aacc3db2115fe2ef79b41d5bdf7307f306f13a8bf4bac67f8904db0b3cc",
+    "src/action_trace_demo/unit_consistency.py": "b190097228c281fb2677788621716e006edc0e8d86ff38e51ffe744488705d04",
+    "src/action_trace_demo/extraction.py": "2bd00aa323bb861fafd450eb8814f0fe127c2ab031399198226908ad2b95e10f",
+    "src/action_trace_demo/extraction_contract.py": "5c2c8ccf404f9cc1361911d45eeb70e7e285e1c5f081f76c496ba2cc67b29f21",
+    "src/action_trace_demo/semantic_ingestion.py": "ba0587b501da23d45857197deca6262fff00583ef56a66464e6ea1b255e457f2",
+    "src/action_trace_demo/semantic_schema.py": "70bfe55cffc07d3795cc6c4182d954d8ba887c887c38b96cda8f0a921f1ac64a",
+    "src/action_trace_demo/claim_view.py": "6edece2905e7d003857242a5634e0ddc842608150e6a37b7f84f1a40dc9fa0ce",
+    "src/action_trace_demo/model.py": "45c09a7b7c78b4af4a27b39996b76e5f7ed81e3f2838578794cb45f1f0352d1a",
+    "src/action_trace_demo/temporal_dag.py": "b3e770ec987889d5124f46a45150b44cdc119ab402cbf58bb48b9294ee928d9d"
+  },
+  "excluded_experiments": [
+    "New CPU unit/date normalization adapters",
+    "Sparse field-patch model contract"
+  ],
+  "known_limits": [
+    "Context availability does not prove model recall or semantic correctness.",
+    "Manual save/read diagnosis is not extraction accuracy."
+  ],
+  "runtime": "Use editable install from project/ to retain DSH host paths; wheel is the Python build artifact.",
+  "historical_changes": []
+}

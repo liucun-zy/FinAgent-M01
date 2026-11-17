@@ -1,0 +1,31 @@
+{
+  "test_m01_unit_consistency.py": {
+    "excluded_private_fixture_functions": []
+  },
+  "test_m01_product_cache.py": {
+    "excluded_private_fixture_functions": []
+  },
+  "test_m01_source_units.py": {
+    "excluded_private_fixture_functions": []
+  },
+  "test_m01_table_context.py": {
+    "excluded_private_fixture_functions": [
+      "test_real_failed_tables_keep_original_header_text_in_isolated_rows"
+    ]
+  },
+  "test_source_extraction.py": {
+    "excluded_private_fixture_functions": []
+  },
+  "test_m01_table_links_scope.py": {
+    "excluded_private_fixture_functions": [
+      "cached_units",
+      "test_cached_sheet_preamble_survives_isolated_data_row",
+      "test_cached_cross_page_columns_reach_arbitration_row",
+      "test_cached_appendix_conditions_reach_target_without_unrelated_sections",
+      "test_degraded_fragment_has_no_guessed_column_mapping"
+    ]
+  },
+  "test_m01_normalization_state.py": {
+    "excluded_private_fixture_functions": []
+  }
+}

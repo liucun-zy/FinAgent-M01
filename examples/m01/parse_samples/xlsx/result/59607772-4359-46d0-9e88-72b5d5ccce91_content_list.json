@@ -1,0 +1,8 @@
+[
+    {
+        "type": "table",
+        "table_caption": [],
+        "table_body": "<table>\n  <tr>\n    <th><p>订单号</p></th>\n    <th><p>型号</p></th>\n    <th><p>数量（台）</p></th>\n    <th><p>单价（万元／台）</p></th>\n    <th><p>金额（万元）</p></th>\n  </tr>\n  <tr>\n    <td><p>PO-017</p></td>\n    <td><p>A型</p></td>\n    <td><p>120</p></td>\n    <td><p>0.8</p></td>\n    <td><p>96</p></td>\n  </tr>\n  <tr>\n    <td><p>说明：金额不含税。</p></td>\n    <td><p></p></td>\n    <td><p></p></td>\n    <td><p></p></td>\n    <td><p></p></td>\n  </tr>\n</table>",
+        "page_idx": 0
+    }
+]

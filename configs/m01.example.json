@@ -1,0 +1,29 @@
+{
+  "model_config_file": "model.local.json",
+  "extraction_model": "EFundGPT-air",
+  "ingestion": {
+    "parse_concurrency": 2,
+    "extraction_concurrency": 20,
+    "source_unit_max_chars": 1800,
+    "source_context_max_chars": 1200,
+    "source_batch_max_units": 8,
+    "batch_input_budget_tokens": 8000,
+    "extraction_output_max_tokens": 4096,
+    "max_model_requests_per_group": 2,
+    "max_transport_attempts_per_group": 3,
+    "max_model_requests_total": 8
+  },
+  "semantic": {
+    "max_requests_per_batch": 2,
+    "max_transport_attempts_per_arrival": 4,
+    "max_batches_per_arrival": 4
+  },
+  "mineru": {
+    "api_keys_file": "mineru.local.json",
+    "model_version": "vlm",
+    "html_model_version": "MinerU-HTML",
+    "poll_interval": 5,
+    "timeout_seconds": 600,
+    "max_new_tasks": 3
+  }
+}

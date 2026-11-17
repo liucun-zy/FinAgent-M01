@@ -1,0 +1,20 @@
+{
+  "baseline_id": "m01-v1-context-20261116-01",
+  "local_regression_passed": 69,
+  "context_checks": {
+    "real": {
+      "correct": 6,
+      "total": 6
+    },
+    "synthetic": {
+      "correct": 10,
+      "total": 10
+    }
+  },
+  "new_model_calls": 0,
+  "new_tokens": 0,
+  "new_mineru_tasks": 0,
+  "full_45_failure_model_evaluation": "not_performed",
+  "formal_save_check": "One manually specified fact, not extraction accuracy",
+  "private_source_materials_included": false
+}

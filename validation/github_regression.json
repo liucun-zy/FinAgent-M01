@@ -1,0 +1,10 @@
+{
+  "command": ".venv/bin/python -m pytest -q",
+  "returncode": 0,
+  "wall_seconds": 3.6917627080110833,
+  "output": "............................................................             [100%]\n60 passed in 3.23s\n",
+  "source": "frozen M01 production code, synthetic-only test selection",
+  "runtime": "Existing locked dependencies with DSH_PYTHON selecting the test interpreter",
+  "model_calls": 0,
+  "tokens": 0
+}

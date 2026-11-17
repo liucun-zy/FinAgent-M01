@@ -1,0 +1,12 @@
+{
+  "profile": {
+    "route": "mineru",
+    "extension": ".xlsx",
+    "model_version": "vlm",
+    "adapter_version": "m01-hosted-content-list-v1",
+    "api_base": "https://mineru.net/api/v4"
+  },
+  "source_content_hash": "f7d3387b8008ee9e038727de218ad506e8c9a6b3308efc226bca51420943790f",
+  "batch_id": "9d831691-42c5-4d79-a491-7217db4bc0af",
+  "description": "Actual hosted MinerU response, no offline replacement"
+}

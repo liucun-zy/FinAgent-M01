@@ -1,0 +1,12 @@
+{
+  "profile": {
+    "route": "mineru",
+    "extension": ".html",
+    "model_version": "MinerU-HTML",
+    "adapter_version": "m01-hosted-content-list-v1",
+    "api_base": "https://mineru.net/api/v4"
+  },
+  "source_content_hash": "fb58e93ac6bdd445950e60f5f559ac41eb5c2a95477f98d73cf003bcc8eb5383",
+  "batch_id": "bb1b2a24-2e1e-411e-8609-4f5965244386",
+  "description": "Actual hosted MinerU response, no offline replacement"
+}

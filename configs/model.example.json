@@ -1,0 +1,9 @@
+{
+  "model": {
+    "model": "EFundGPT-air",
+    "base_url": "https://aigc.efunds.com.cn/v1",
+    "api_key_env": "FINAGENT_API_KEY",
+    "request_timeout_seconds": 120,
+    "max_transport_retries": 2
+  }
+}
